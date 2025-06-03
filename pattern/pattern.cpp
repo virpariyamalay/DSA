@@ -249,6 +249,60 @@ void print16(int n){
     }
 }
 
+void print18(int n)
+{
+    for(int i=1;i<=n;i++)
+    {
+        for(char ch=('E'-i)+1;ch<='E';ch++)
+        {
+            cout<<ch<<" ";
+        }
+        cout<<endl;
+    }
+    
+}
+
+
+
+void print19(int n)
+{
+  for(int i=1;i<=n;i++)
+  {
+        for(int j=n;j>=i;j--)
+         {
+          cout<<"*";
+         }
+      for(int j=1;j<=(2*i)-2;j++)
+        {
+         cout<<" ";
+        }
+        for(int j=n;j>=i;j--)
+         {
+          cout<<"*";
+         }
+         cout<<endl;
+        
+    }
+    
+         for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++)
+         {
+          cout<<"*";
+         }
+      for(int j=1;j<=(2*n)-(2*i);j++)
+        {
+         cout<<" ";
+        }
+          for(int j=1;j<=i;j++)
+         {
+          cout<<"*";
+         }
+         cout<<endl;
+         }
+         
+ 
+}
+
 void print21(int n)
 {
     for(int i=1;i<=n;i++)
