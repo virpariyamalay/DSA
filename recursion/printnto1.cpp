@@ -30,7 +30,5 @@ int main(){
     Solution sol;
     sol.printnto1(n);
 
-    
-    
     return 0;
 }
